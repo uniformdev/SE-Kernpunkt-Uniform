@@ -1,0 +1,41 @@
+composition:
+  _name: Custom Product Detail
+  _id: a78a8ad1-339f-486a-bfd5-1e97bf4c80f3
+  _slug: /black-mountain-pour-over-coffee-maker-97
+  type: page
+  parameters:
+    pageMetaTitle:
+      type: text
+      value: Custom Product Detail
+    pageMetaDescription:
+      type: text
+      value: Custom Commerce Baseline Product Detail
+  slots:
+    content:
+      - _id: 28937512-0cd2-49db-90ec-d7316e40f9c2
+        type: hero
+        parameters:
+          image:
+            type: image
+            value: >-
+              https://res.cloudinary.com/uniformdev/image/upload/v1675862788/vNext%20Demos/Fake%20Commerce/hero-coffee-makers_ixoaim.webp
+          title:
+            type: text
+            value: 'Customised Product Detail '
+      - _id: 3685832e-73b1-465b-8981-8bfdfeeded2f
+        type: product
+        parameters:
+          content:
+            type: fake-commerce-product-selector
+            value:
+              productIds:
+                - '97'
+      - _id: 92b0c2ea-9c65-48de-a0fa-1ea9fcba2d3e
+        type: relatedProducts
+        parameters:
+          title:
+            type: text
+            value: Explore related products
+created: '2023-03-14T13:20:08.848344+00:00'
+modified: '2023-03-28T11:41:10.038225+00:00'
+pattern: false

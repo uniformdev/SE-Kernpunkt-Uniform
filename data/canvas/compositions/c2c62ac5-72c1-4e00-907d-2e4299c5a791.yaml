@@ -1,0 +1,31 @@
+composition:
+  _name: Product Detail (Template)
+  _id: c2c62ac5-72c1-4e00-907d-2e4299c5a791
+  _slug: /product-slug
+  type: page
+  parameters:
+    pageMetaTitle:
+      type: text
+      value: Product Detail
+    pageMetaDescription:
+      type: text
+      value: Commerce Baseline Product Detail
+  slots:
+    content:
+      - _id: 571f2eb5-fb01-4169-92c4-8536bf716790
+        type: product
+        parameters:
+          content:
+            type: fake-commerce-product-selector
+            value:
+              productIds:
+                - '117'
+      - _id: 5f694d47-dcbc-4bd1-a720-9551f7e66baf
+        type: relatedProducts
+        parameters:
+          title:
+            type: text
+            value: Explore related products
+created: '2023-01-24T14:26:59.060788+00:00'
+modified: '2023-03-22T09:50:12.782521+00:00'
+pattern: false
